@@ -1,0 +1,17 @@
+name: "GitHub PR Action"
+description: "Comment to a PR"
+author: "sbis1999@gmail.com"
+
+inputs:
+  MY_NAME:
+    description: "Who to greet"
+    required: true
+    default: "Souvik"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
